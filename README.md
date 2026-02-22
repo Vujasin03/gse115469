@@ -24,3 +24,12 @@ Strategija rada:
 1. Učitavanje pomoću pandas
 2. Konverzija u NumPy
 3. Dalja numerička obrada u NumPy okruženju
+4. **K-Means klasterovanje**  
+   - Primena K-Means algoritma za grupisanje ćelija u `k` klastera.  
+   - Prilagođavanje broja klastera (`k`) na osnovu prethodnih analiza ili heuristički.  
+   - Čuvanje klasterskih labela za svaku ćeliju radi vizualizacije i statističke analize.  
+
+5. **UMAP redukcija dimenzionalnosti i vizualizacija**  
+   - Primena UMAP-a na matricu ekspresije gena (ili PCA prethodno smanjenu matricu) za redukciju dimenzija na 2D ili 3D.  
+   - Vizualizacija ćelija u prostoru sa smanjenim dimenzijama, bojenje tačaka po K-Means klasterima.  
+   - Sačuvavanje rezultata redukcije (`X_umap.npy`) za kasniju upotrebu ili dalju analizu.  
